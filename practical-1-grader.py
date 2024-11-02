@@ -215,20 +215,20 @@ if image is not None:
     q1 = warped_img[285:508, 0:972]
     st.image(q1)
 
-    chk1a = st.checkbox("Question 1a", key="chk1a")
-    chk1b = st.checkbox("Question 1b", key="chk1b")
-    chk1c = st.checkbox("Question 1c", key="chk1c")
-    chk1d = st.checkbox("Question 1d", key="chk1d")
-    chk1e = st.checkbox("Question 1e", key="chk1e")
+    chk1a = st.checkbox("Question 1a: -22.35139", key="chk1a")
+    chk1b = st.checkbox("Question 1b: +30.03972", key="chk1b")
+    chk1c = st.checkbox("Question 1c: +30.04444", key="chk1c")
+    chk1d = st.checkbox("Question 1d: -31.23583", key="chk1d")
+    chk1e = st.checkbox("Question 1e: -15.79750", key="chk1e")
 
     q2 = warped_img[511:718, 0:972]
     st.image(q2)
 
-    chk2a = st.checkbox("Question 2a", key="chk2a")
-    chk2b = st.checkbox("Question 2b", key="chk2b")
-    chk2c = st.checkbox("Question 2c", key="chk2c")
-    chk2d = st.checkbox("Question 2d", key="chk2d")
-    chk2e = st.checkbox("Question 2e", key="chk2e")
+    chk2a = st.checkbox("Question 2a: 17°36'30''N", key="chk2a")
+    chk2b = st.checkbox("Question 2b: 8°04'54''E", key="chk2b")
+    chk2c = st.checkbox("Question 2c: 64°50'24''N", key="chk2c")
+    chk2d = st.checkbox("Question 2d: 147°43'12''W", key="chk2d")
+    chk2e = st.checkbox("Question 2e: 33°55'24;;S", key="chk2e")
 
     q1_grade = 0
     q2_grade = 0
