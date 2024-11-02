@@ -228,7 +228,7 @@ if image is not None:
     chk2b = st.checkbox("Question 2b: 8°04'54''E", key="chk2b")
     chk2c = st.checkbox("Question 2c: 64°50'24''N", key="chk2c")
     chk2d = st.checkbox("Question 2d: 147°43'12''W", key="chk2d")
-    chk2e = st.checkbox("Question 2e: 33°55'24;;S", key="chk2e")
+    chk2e = st.checkbox("Question 2e: 33°55'24''S", key="chk2e")
 
     q1_grade = 0
     q2_grade = 0
